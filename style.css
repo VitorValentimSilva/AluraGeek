@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  --cor-primaria: #5300C8;
+  --cor-segundaria: #5D04D9;
+  --cor-botao: #03318C;
+  --fonte-primaria: "Press Start 2P", system-ui;
+  --fonte-segundaria: "IBM Plex Mono", monospace;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-primaria);
+  height: 90px;
+}
+
+h1{
+  color: #E5E5E5;
+  font-family: var(--fonte-primaria);
+}
+
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor-primaria);
+  height: 180px;
+}
+
+footer > div{
+  display: flex;
+  align-items: center;
+}
+
+footer > p{
+  font-family: var(--fonte-segundaria);
+  font-weight: 400;
+  color: #FFFFFF;
+}
