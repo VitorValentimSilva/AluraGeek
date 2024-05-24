@@ -14,10 +14,24 @@
   </header>
 
   <main>
-    <section>
+    <section id="listaProdutos">
       <h2>MEUS PRODUTOS:</h2>
 
-      <div>
+      <div id="linhaProdutos">
+        <div>
+          <img src="img/imgProduto.svg" alt="Imagem do Produto">
+
+          <p>Stormtrooper</p>
+          <p>$ 60,00 <img src="img/lixeira.svg" alt="Lixeira"></p>
+        </div>
+
+        <div>
+          <img src="img/imgProduto.svg" alt="Imagem do Produto">
+
+          <p>Stormtrooper</p>
+          <p>$ 60,00 <img src="img/lixeira.svg" alt="Lixeira"></p>
+        </div>
+
         <div>
           <img src="img/imgProduto.svg" alt="Imagem do Produto">
 
@@ -27,17 +41,20 @@
       </div>
     </section>
 
-    <section>
+    <section id="adicionarProdutos">
       <h2>ADICIONAR PRODUTO:</h2>
 
       <form action="" method="">
-        <input type="text" name="nome" id="inome">
+        <input type="text" name="nome" id="inome" required placeholder="Nome...">
 
-        <input type="number" name="valor" id="ivalor">
+        <input type="number" name="valor" id="ivalor" required placeholder="Valor...">
 
-        <input type="file" name="imagem" id="iimagem">
+        <label id="fileUpload">
+          Imagem...
+          <input type="file" name="imagem" id="iimagem" accept="image/*" required>
+        </label>
 
-        <div>
+        <div id="botoes">
           <input type="submit" value="Guardar">
 
           <input type="reset" value="Limpar">
