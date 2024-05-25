@@ -26,7 +26,24 @@ async function criarProdutos(nome, preco, imagem){
   return conexaoConvertida;
 }
 
+async function excluirProduto(id){
+  console.log("ID do produto a ser excluído:", id);
+  const url = `http://localhost:3000/produtos/${id}`;
+  const conexao = await fetch(url, {
+    method: "DELETE"
+  });
+
+  if (!conexao.ok) {
+    throw new Error("Não foi possível excluir o produto");
+  }
+
+  const conexaoConvertida = await conexao.json();
+
+  return conexaoConvertida;
+}
+
 export const conectaAPI = {
   listarProdutos,
-  criarProdutos
+  criarProdutos,
+  excluirProduto
 }

@@ -1,4 +1,4 @@
-import { conectaAPI } from "./index.js";
+import { conectaAPI } from "./conectaApi.js";
 
 const formulario = document.querySelector("#formulario")
 
