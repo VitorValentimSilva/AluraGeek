@@ -1,16 +1,16 @@
 {
-  "projetos": [
+  "produtos": [
     {
-      "id": 1,
       "nome": "Stormtrooper",
-      "preco": "60",
-      "imagem": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jUUQxp1Vvmm-m34nH3qnEgzWn344yVx5zTeAzLOnU1WytovuBp1eCliByBZsEwBNSK~3r0MdaMDEMznaNHTgEt~kmwHejri~bnMHA8fBEIJVkERvWVlpXRBqxb0yb-W1pfCcSfb1SWYTF6JWvuwi8rAfGFQQmmQlA4rpMFB~YkHaMV2FUpgyGGnukPC4C1YFI63OD4x5DyhNzePYBJQqGSEsVBAN8oOnhCS5MMp54FmTVxt7HNhaLUFVVuLtPjDYaiMGIZTQaGgsn07019UFYAK~WBny69GkpNqYyD4Fc8adVoAo6~1TWH8IGogvKqfAbIYUxjSDbBiNREBWWJFaAA__"
+      "preco": "60,00",
+      "imagem": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jUUQxp1Vvmm-m34nH3qnEgzWn344yVx5zTeAzLOnU1WytovuBp1eCliByBZsEwBNSK~3r0MdaMDEMznaNHTgEt~kmwHejri~bnMHA8fBEIJVkERvWVlpXRBqxb0yb-W1pfCcSfb1SWYTF6JWvuwi8rAfGFQQmmQlA4rpMFB~YkHaMV2FUpgyGGnukPC4C1YFI63OD4x5DyhNzePYBJQqGSEsVBAN8oOnhCS5MMp54FmTVxt7HNhaLUFVVuLtPjDYaiMGIZTQaGgsn07019UFYAK~WBny69GkpNqYyD4Fc8adVoAo6~1TWH8IGogvKqfAbIYUxjSDbBiNREBWWJFaAA__",
+      "id": 1
     },
     {
-      "id": 2,
       "nome": "Game Boy Classic",
-      "preco": "80",
-      "imagem": "https://s3-alpha-sig.figma.com/img/d558/49ab/5123b06dc2b03005a463881f216b87f1?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YgJeTyR7EH9a5Wx702nQWhQhaGNFqCmiL~evMux~8W8cNZeJ2VchTzM5C9~yjlvPUyd1vG3ioxZZo318d~sH3~48GmuU5rK~K8lfEn~XxAauuI~g4jGCe-cn2MmvWuUZ6S9dETCRTXZxNGXf1mzXP2gMyemVURuPKJcKPmtokHpwQCCgmOjFS17hB~lFUJUebZfdugWGDmiWOrebipnHDrIsrKut3Xm01pLcapDfqpzew00WwbMmi3WzSSuP8oE99~q7zJC5uMuz8hxpqI5YUcIDkn-LGQHIiyprRuCMj4RJkXsghweaL8LjsYn-1i-8sfnUFMJbfe6seoGry5FZOg__"
+      "preco": "80,99",
+      "imagem": "https://s3-alpha-sig.figma.com/img/d558/49ab/5123b06dc2b03005a463881f216b87f1?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YgJeTyR7EH9a5Wx702nQWhQhaGNFqCmiL~evMux~8W8cNZeJ2VchTzM5C9~yjlvPUyd1vG3ioxZZo318d~sH3~48GmuU5rK~K8lfEn~XxAauuI~g4jGCe-cn2MmvWuUZ6S9dETCRTXZxNGXf1mzXP2gMyemVURuPKJcKPmtokHpwQCCgmOjFS17hB~lFUJUebZfdugWGDmiWOrebipnHDrIsrKut3Xm01pLcapDfqpzew00WwbMmi3WzSSuP8oE99~q7zJC5uMuz8hxpqI5YUcIDkn-LGQHIiyprRuCMj4RJkXsghweaL8LjsYn-1i-8sfnUFMJbfe6seoGry5FZOg__",
+      "id": 2
     }
   ]
 }
