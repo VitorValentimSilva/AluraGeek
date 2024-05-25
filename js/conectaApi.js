@@ -1,12 +1,12 @@
 async function listarProdutos(){
-  const conexao = await fetch("https://foremost-educated-shaker.glitch.me/produto")
+  const conexao = await fetch("https://json-test-indol.vercel.app/produtos")
   const conexaoConvertida = await conexao.json()
 
   return conexaoConvertida
 }
 
 async function criarProdutos(nome, preco, imagem){
-  const conexao = await fetch("https://foremost-educated-shaker.glitch.me/produto", {
+  const conexao = await fetch("https://json-test-indol.vercel.app/produtos", {
     method: "POST",
     headers: {
       "Content-type": "application/json"
@@ -28,7 +28,7 @@ async function criarProdutos(nome, preco, imagem){
 
 async function excluirProduto(id){
   console.log("ID do produto a ser excluído:", id);
-  const url = `https://foremost-educated-shaker.glitch.me/produto${id}`;
+  const url = `https://json-test-indol.vercel.app/produtos${id}`;
   const conexao = await fetch(url, {
     method: "DELETE"
   });
