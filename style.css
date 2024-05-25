@@ -204,3 +204,32 @@ footer > p{
   font-weight: 400;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 911px){
+  /* Corpo */
+  main{
+    flex-direction: column-reverse;
+  }
+
+  h2{
+    margin-bottom: 6%;
+  }
+
+  /* Lista dos Produtos */
+  #listaProdutos{
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .conteudoProdutos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+  }
+
+  /* Adicionar um Produto */
+  #adicionarProdutos{
+    width: 100%;
+    margin-bottom: 8%;
+  }
+}
