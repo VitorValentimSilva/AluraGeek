@@ -1,3 +1,3 @@
 # AluraGeek
 
-Você pode conferir o portfólio clicando [aqui](https://alura-geek-mauve.vercel.app)
+Você pode conferir o Projeto clicando [aqui](https://alura-geek-mauve.vercel.app)
