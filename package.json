@@ -1,0 +1,31 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Projeto da Alura",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-number": "^7.0.0",
+    "json-server": "^1.0.0-beta.0",
+    "normalize-path": "^3.0.0",
+    "sirv": "^2.0.4",
+    "to-regex-range": "^5.0.1",
+    "type-fest": "^3.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorValentimSilva/AluraGeek.git"
+  },
+  "author": "Vitor Valentim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorValentimSilva/AluraGeek/issues"
+  },
+  "homepage": "https://github.com/VitorValentimSilva/AluraGeek#readme"
+}
