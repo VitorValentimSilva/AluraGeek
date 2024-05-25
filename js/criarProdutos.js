@@ -21,7 +21,7 @@ async function criarProdutos(evento){
 
     try{
       await conectaAPI.criarProdutos(nome, preco, imgBase);
-      window.location.href = "../pages/asdas.html"
+      window.location.href = "../pages/produtoCriado.html"
     } 
     catch (e){
       alert(e)

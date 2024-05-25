@@ -18,7 +18,7 @@ async function criarProdutos(nome, preco, imagem){
     })
   })
   if (!conexao.ok) {
-    throw new Error("Não foi possível enviar o vídeo")
+    throw new Error("Não foi possível enviar o produto")
   }
 
   const conexaoConvertida = conexao.json();
