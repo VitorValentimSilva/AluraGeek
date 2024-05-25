@@ -28,7 +28,7 @@ async function criarProdutos(nome, preco, imagem){
 
 async function excluirProduto(id){
   console.log("ID do produto a ser excluído:", id);
-  const url = `https://json-test-indol.vercel.app/produtos${id}`;
+  const url = `https://json-test-indol.vercel.app/produtos/${id}`;
   const conexao = await fetch(url, {
     method: "DELETE"
   });
