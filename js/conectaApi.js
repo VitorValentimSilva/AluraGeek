@@ -21,7 +21,7 @@ async function criarProdutos(nome, preco, imagem){
     throw new Error("Não foi possível enviar o produto")
   }
 
-  const conexaoConvertida = conexao.json();
+  const conexaoConvertida = await conexao.json();
 
   return conexaoConvertida;
 }
